@@ -20,16 +20,18 @@ body{
     padding: 10px;
     font-size: 25px;
     font-style: italic;
+    width: 80%;
 }
 
 #notif{
-    float: right;
     color: #cfff00;
     text-shadow: 0 0 3px #cfff00;
     padding: 10px;
     font-size: 25px;
     font-style: italic;
-    padding-left: 80%;
+    min-width: 200px;
+    width: 20%;
+    height: 10%;
 }
 
 /* login box */
@@ -132,40 +134,25 @@ input{
 }
 
 #chat-box{
-    position: fixed;
-    bottom: 40;
-    height: 400px;
-    width: 150px;
     background: #444444;
-    margin: 25px;
-    border: 1px;
-    border-radius: 10px;
-}
-
-#msgfrm{
-    float: left;
-    color: black;
+    padding: 10px;
+    margin: 5px;
     border: 1px;
     border-radius: 5px;
+}
+
+.container{
+    border: 2px solid #666660;
+    background-color: #666666;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #555550;
     background-color: #555555;
-    padding: 5px;
-    max-width: 75%;
-    word-wrap: normal;
-    margin: 5px;
-}
-
-#msgto{
-    float: right;
-    color: black;
-    border: 1px;
-    border-radius: 5px;
-    background-color: #333333;
-    padding: 5px;
-    max-width: 75%;
-    word-wrap: normal;
-    margin: 5px;
-
-}
+  }
 
 /*footer*/
 
